@@ -1,0 +1,143 @@
+{
+  "jwt_token_type":{
+    "ACCESS_TOKEN":"access_token",
+    "REFRESH_TOKEN":"refresh_token"
+  },
+  "allow_switch_account_controllers": [
+    "account",
+    "admin",
+    "integration",
+    "plan",
+    "company"
+  ],
+  "allow_switch_account_urls": [
+    "company/addcompany",
+    "company/get_state_list",
+    "company/edit"
+  ],
+  "time_format_sql": [
+    {
+      "1": "%H:%i"
+    },
+    {
+      "2": "%h:%i %p"
+    }
+  ],
+  "time_format_disply_drop": [
+    {
+      "1": "24 hour Format"
+    },
+    {
+      "2": "12 hour Format"
+    }
+  ],
+  "date_format": [
+    {
+      "1": "MM-DD-YYYY"
+    },
+    {
+      "2": "DD-MM-YYYY"
+    },
+    {
+      "3": "YYYY-MM-DD"
+    }
+  ],
+  "date_format_picker": [
+    {
+      "1": "MM-DD-YYYY"
+    },
+    {
+      "2": "DD-MM-YYYY"
+    },
+    {
+      "3": "YYYY-MM-DD"
+    }
+  ],
+  "date_format_php": [
+    {
+      "1": "m-d-Y"
+    },
+    {
+      "2": "d-m-Y"
+    },
+    {
+      "3": "Y-m-d"
+    }
+  ],
+  "date_format_php_full_month": "d M Y",
+  "date_format_sql": [
+    {
+      "1": "%m-%d-%Y"
+    },
+    {
+      "2": "%d-%m-%Y"
+    },
+    {
+      "3": "%Y-%m-%d"
+    }
+  ],
+  "allow_wizard_actions": [
+    "admin/signup_profile",
+    "admin/setup_company",
+    "admin/get_state_list",
+    "admin/setup_logo",
+    "admin/setup_contact",
+    "admin/login",
+    "admin/logout",
+    "contact/delete",
+    "admin/finished",
+    "admin/getcity",
+    "admin/beliefmedia_reverse_geocode"
+  ],
+  "disallow_wizard_actions_when_complete": [
+    "admin/signup_profile",
+    "admin/setup_company",
+    "admin/setup_logo",
+    "admin/setup_contact",
+    "admin/finished"
+  ],
+  "allow_actions_for_deactivate_subscriptions": [
+    "company/billing",
+    "account/edit_profile",
+    "account/change_password"
+  ],
+  "bipolar": { "YES": "yes", "NO": "no" },
+  "bipolarTrueFalse": { "TRUE": "true", "FALSE": "false" },
+  "os_type": { "IOS": "ios", "ANDROID": "android", "WEB": "web" },
+  "search_type": {
+    "EXACT": "exact",
+    "CONTAIN": "contain",
+    "MATCHING": "matching"
+  },
+  "companyStatus": { "ACTIVE": "active", "INACTIVE": "inactive" },
+  "contactStatus": {
+    "ACTIVE": "active",
+    "HIDDEN": "hidden",
+    "UNAVAILABLE": "unavailable"
+  },
+  "signout_options": { "SECURE": "secure", "BYNAME": "byname", "BOTH": "both" },
+  "gesture_settings_screen": {
+    "LONGPRESS": "longpress",
+    "SINGLETAP": "singletap",
+    "DOUBLETAP": "doubletap",
+    "SWIPERIGHT": "swiperight",
+    "SWIPELEFT": "swipeleft"
+  },
+  "keyboard_checkout_returning": { "REGULAR": "regular", "NUMERIC": "numeric" },
+  "admin_type": { "ADMIN": "admin", "USER": "user" },
+  "admin_company_type": { "SUPER": "super", "COMPANY": "company" },
+  "agreement_type": { "HTML": "html", "VIDEO": "video" },
+  "result_type": {
+    "YES_NO": "yes_no",
+    "AGREE_DISAGREE": "agree_disagree",
+    "SIGNATURE": "signature"
+  },
+  "design_mode": { "PORTRAIT": "portrait", "LANDSCAPE": "landscape" },
+  "email_type": {
+    "EMAIL": "email",
+    "NDA": "nda",
+    "INVITE": "invite",
+    "SIGN_OUT": "sign_out",
+    "SIGN_IN": "sign_in"
+  }
+}
